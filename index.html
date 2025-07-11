@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Tour Travel Website</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_header">
+            <div class="nav_logo">
+                <a href="#">Travel<span>Tour</span></a>
+            </div>
+            <div class="nav_menu_btn" id="menu-btn">
+                <i class="ri-menu-3-line"></i>
+            </div>
+        </div>
+        <ul class="nav_links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav_btns">
+            <button class="btn">Register</button>
+        </div>
+    </nav>
+
+    <header class="section_container header_container" id="home">
+        <div class="header_content">
+            <h1><span>Let's</span>Create Memorable Journey</h1>
+            <p class="section_description">
+                Embark on an unforgetable adventure with us!
+                Discover breathing destinations, create lasting memmories, and make every journey remarkable.
+            </p>
+
+            <form action="/">
+                <div class="input_group">
+                    <label for="location">Location</label>
+                    <input type="text" name="location" placeholder="Lakshadiveep">
+                </div>
+                <div class="input_group">
+                    <label for="date">Date</label>
+                    <input type="text" name="date" placeholder="26 mar, Fri"/>
+                </div>
+                <div class="input_group">
+                    <label for="price">Price</label>
+                    <input type="text" name="price" placeholder="Rs. 42,000"/>
+                </div>
+                <button class="btn"><i class="ri-search-line"></i></button>
+            </form>
+        </div>
+
+        <div class="header_image">
+            <img src="assets/header-10.jpeg" alt="header"/>
+            <img src="assets/header-12.jpeg" alt="header"/>
+            <img src="assets/header-13.jpeg" alt="header"/>
+        </div>
+    </header>
+
+    <section class="section_container choose_container" id="about">
+        <div class="choose_image">
+            <img src="assets/dubai.jpeg" alt="choose"/>
+        </div>
+        <div class="choose_content">
+            <p class="section_subheader">Why choose Us?</p>
+            <h2 class="section_header">Plan Your Trip <span>With Us</span></h2>
+
+            <ul class="choose_list">
+                <li>
+                    <span><i class="ri-verified-badge-full"></i></span>
+                    <div>
+                        <h4>Best Price Gurantee</h4>
+                        <p>
+                            We ensure you get the most competitive rates for your plans, making your
+                            dream destinations affordable.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span><i class="ri-calendar-fill"></i></span>
+                    <div>
+                        <h4>Booking Options</h4>
+                        <p>
+                            Experience the ease of flexible booking options tailoring your schedule and preferences.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span><i class="ri-road-map-fill"></i></span>
+                    <div>
+                        <h4>Revising Track Map</h4>
+                        <p>
+                            Navigate your adventure with our personalized track maps designed for seamless
+                            and enjoyable travel experiences.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
